@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.Python
+
+# Backend — generated / large files
+backend/uploads/
+backend/detected/
+backend/weights/
+backend/northroad.db
+backend/*.db
+backend/yolov8n.pt
+backend/yolov8s.pt
+
+# Node / Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.env
+frontend/.env.local
+frontend/.env*.local
+frontend/npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.idea/
+.vscode/
+*.swp
+
+# Project-internal docs
+CLAUDE.md
+PLAN.md
+start.sh
